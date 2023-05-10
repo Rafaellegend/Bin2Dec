@@ -5,10 +5,8 @@ export const useConvertDectBin = (dec:string) => {
     return 0;
   }
   while (rad > 0){
-    console.log(rad);
     bin += rad % 2 == 1 ? '1' : '0';  
     rad = Math.trunc(rad / 2); 
-    console.log(bin);
   }
   return bin.split('').reverse().join('');
 };

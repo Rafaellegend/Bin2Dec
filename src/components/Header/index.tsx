@@ -1,7 +1,12 @@
 import React from 'react';
-const Header = () => {
+const Header = (props:{modo:string,setModo:any}) => {
+  const {modo,setModo} = props;
   return (
-    <h1>Bin 2 Dec</h1>
+    <nav>
+      <h1>{modo == 'bin2dec'? 'Bin' : 'Dec'}</h1>
+      <button onClick={() => setModo(modo == 'bin2dec'? 'dec2bin' : 'bin2dec' )}>2</button>
+      <h1>{modo == 'bin2dec'? 'Dec' : 'Bin'}</h1>
+    </nav>
   );
 };
 
