@@ -12,6 +12,11 @@ export const StyledHeader = styled.nav`
   p{
     width: 125px;
     margin:auto 0;
-    padding-top: 50px;
+  }
+  svg{
+    vertical-align: middle;
+  }
+  svg:hover{
+    color: #323232;
   }
 `;
