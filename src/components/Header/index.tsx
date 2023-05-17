@@ -1,12 +1,14 @@
 import React from 'react';
-const Header = (props:{modo:string,setModo:any}) => {
-  const {modo,setModo} = props;
+import { StyledHeader } from './style';
+import { BsArrowRightSquareFill } from 'react-icons/bs';
+const Header = (props: { modo: string, setModo: any }) => {
+  const { modo, setModo } = props;
   return (
-    <nav>
-      <h1>{modo == 'bin2dec'? 'Bin' : 'Dec'}</h1>
-      <button onClick={() => setModo(modo == 'bin2dec'? 'dec2bin' : 'bin2dec' )}>2</button>
-      <h1>{modo == 'bin2dec'? 'Dec' : 'Bin'}</h1>
-    </nav>
+    <StyledHeader>
+      <h1>{modo == 'bin2dec' ? 'Bin' : 'Dec'}</h1>
+      <p onClick={() => setModo(modo == 'bin2dec' ? 'dec2bin' : 'bin2dec')}><BsArrowRightSquareFill/></p>
+      <h1>{modo == 'bin2dec' ? 'Dec' : 'Bin'}</h1>
+    </StyledHeader>
   );
 };
 
