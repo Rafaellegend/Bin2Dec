@@ -20,10 +20,12 @@ const Bin2Dec = (props: { modo: any }) => {
     evento.preventDefault();
     if (modo == 'bin2dec') {     
       const fun = useConvertBintoDec(value);
+      document.title = `Bin2Dec - Last Result: ${fun}`;
       setRes([...res!, `${fun}`]);
       setValue('');
     } else {
       const fun = useConvertDectBin(value);
+      document.title = `Dec2Bin - Last Result: ${fun}`;
       setRes([...res!, `${fun}`]);
       setValue('');
     }
