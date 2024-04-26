@@ -11,13 +11,13 @@ Esse projeto é baseado em um dos desafios do app-ideas.
 
 
 ## 💻 Linguagens e FrameWorks
+[![Typescript](https://img.shields.io/badge/Typescript-000?style=for-the-badge&logo=php)](https://www.typescriptlang.org)
+[![React.js](https://img.shields.io/badge/React.js-000?style=for-the-badge&logo=react)](https://react.dev)
+[![Styled Component](https://img.shields.io/badge/Styled_Component-000?style=for-the-badge&logo=styledcomponents)](https://styled-components.com)
 
-- [Typescript](https://www.typescriptlang.org)
-- [⚛ React.js](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev)
-- [💅 Styled Component](https://styled-components.com)
 ## ▶ Demonstração
 
-[Demonstração - Vercel.app](https://bin2-dec-sandy.vercel.app)
+- [Demonstração - Vercel.app](https://bin2-dec-sandy.vercel.app)
 
 
 ## 📚 Referência
